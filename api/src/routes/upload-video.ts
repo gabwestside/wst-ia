@@ -5,7 +5,6 @@ import { FastifyInstance } from 'fastify'
 import { randomUUID } from 'node:crypto'
 import { pipeline } from 'node:stream'
 import { promisify } from 'node:util'
-import { prisma } from '../lib/prisma'
 
 const pump = promisify(pipeline)
 
